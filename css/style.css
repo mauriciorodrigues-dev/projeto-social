@@ -40,10 +40,28 @@ main {
     /* background-color: rgba(0, 0, 255, 0.452); */
 }
 
+#redes-sociais {
+    text-align: right;
+
+   
+}
+
 #tela {
     position: relative;
     top: 80px;
     left: 22px;
     width: 268px;
     height: 471px;
+}
+
+#redes-sociais img {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    &:hover {
+        border: 2px solid rgba(255, 255, 255, 0.637);
+        transform: translate(-10px);
+        transition: transform .3s, border 1s;
+    }
 }
